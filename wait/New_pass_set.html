@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Password</title>
+    <!---icon link (flaticon)---->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body style="background:#ECF0F3 ;">
+    <!-- page preloader -->
+    <div id="loading-area">
+        <div class="loader-col">
+            <div class="loader" id="loader"></div>
+        </div>
+    </div>
+    <!-- end loading -->
+
+    <!----::::from::::::--->
+    <div class="form_bg_j">
+        <form class="new_pass">
+            <div class="logo"></div>
+            <div class="title">Chat bot</div>
+            <div class="login-in">
+                <div class="password">
+                    <i class="fi fi-rr-lock"></i>
+                    <input type="password" placeholder="New password" id="password" required>
+                    <span class="btn_eye">
+                        <i class="fi fi-rr-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                    </span>
+                </div>
+                <div class="password">
+                    <i class="fi fi-rr-lock"></i>
+                    <input type="password" placeholder="Re-password" id="Rpassword" required>
+                    <span class="btn_eye">
+                        <i class="fi fi-rr-eye" aria-hidden="true" id="Reye" onclick="toggle1()"></i>
+                    </span>
+                </div>
+            </div>
+
+            <button class="button_j" id="button" type="button" value="Check">
+                <a href="Login.html">login</a>
+            </button>
+        </form>
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!---icon link (flaticon)---->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body style="background:#ECF0F3 ;">
+    <!-- page preloader -->
+    <div id="loading-area">
+        <div class="loader-col">
+            <div class="loader" id="loader"></div>
+        </div>
+    </div>
+    <!-- end loading -->
+
+    <!----::::from::::::--->
+
+    <div class="form_bg_j">
+        <div class="sign">
+            <div class="logo"></div>
+            <div class="title">Sign Up</div>
+            <div class="sign-up">
+                <div class="username">
+                    <i class="fi fi-rr-user"></i>
+                    <input type="username" placeholder="username" required>
+                </div>
+                <div class="email">
+                    <i class="fi fi-rr-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="password">
+                    <i class="fi fi-rr-lock"></i>
+                    <input type="password" placeholder="password" id="password" required>
+                    <span class="btn_eye">
+                        <i class="fi fi-rr-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                    </span>
+                </div>
+            </div>
+
+            <button class="button_j" type="submit">Sign Up</button>
+            <div class="link">
+                <p>Already have an account?</p>
+                <a href="Login.html">Login</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
